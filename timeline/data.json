@@ -1,0 +1,62 @@
+
+{
+    "timeline":
+    {
+        "headline":"属于丁大明的时间",
+        "type":"default",
+		"startDate":"2009,9,1",
+		"text":"<i><span class='c1'>Designer</span> & <span class='c2'>Developer</span></i>",
+		"asset":
+        {
+            "media":"./assets/img/notes.png",
+            "credit":"<a href='javascript:void(0)'>Java developer</a>",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2009,9,2",
+                "headline":"第一次见面的军训",
+                "text":"具体细节，忘记了",
+                "asset":
+                {
+                    "media":"./assets/img/1.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,10",
+                "headline":"无聊的09年",
+                "text":"这货把空间都清理了，09年的事情我找不到素材，只能随便靠着两张图黑他",
+                "asset":
+                {
+                    "media":"./assets/img/2.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,11",
+                "headline":"相濡以沫，不如相忘于江湖",
+                "text":"",
+                "asset":
+                {
+                    "media":"./assets/img/3.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,12",
+                "headline":"魂之挽歌",
+                "text":"",
+                "asset":
+                {
+                    "media":"./assets/img/4.jpg",
+                    "credit":"<a href='javascript:void(0)'>丁大明，你这个战五渣，你真的把空间清理了</a>",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}
