@@ -107,7 +107,6 @@ var m3D = function () {
 							selected.img.style.cursor = "pointer";
 							selected.urlActive = false;
 							urlInfo.style.visibility = "hidden";
-							detail.style.visibility = "hidden";
 						}
 						/* ---- select current img ---- */
 						this.diapo.but.className = "button selected";
@@ -270,13 +269,13 @@ var m3D = function () {
 					urlInfo.style.top = Math.round(selected.img.offsetTop + selected.img.offsetHeight - urlInfo.offsetHeight - 5) + "px";
 					urlInfo.style.left = Math.round(selected.img.offsetLeft + selected.img.offsetWidth - urlInfo.offsetWidth - 5) + "px";
 					
-					detail.diapo = selected;
-					detail.onclick = selected.img.onclick;
-					detail.innerHTML = selected.detail;
-					detail.style.visibility = "visible";
-					detail.style.color = selected.color || "#fff";
-					detail.style.top = Math.round(selected.img.offsetTop + selected.img.offsetHeight - urlInfo.offsetHeight - 5) + "px";
-					detail.style.left = Math.round(selected.img.offsetLeft + selected.img.offsetWidth - urlInfo.offsetWidth - 5) + "px";
+					//detail.diapo = selected;
+					//detail.onclick = selected.img.onclick;
+					//detail.innerHTML = selected.detail;
+					//detail.style.visibility = "visible";
+					//detail.style.color = selected.color || "#fff";
+					//detail.style.top = Math.round(selected.img.offsetTop + selected.img.offsetHeight - urlInfo.offsetHeight - 5) + "px";
+					//detail.style.left = Math.round(selected.img.offsetLeft + selected.img.offsetWidth - urlInfo.offsetWidth - 5) + "px";
 					
 				} else {
 					selected.img.style.cursor = "default";
@@ -308,7 +307,6 @@ var m3D = function () {
 		<div id="bar"></div>
 	</div>
 	<div id="urlInfo"></div>
-	<div id="detail"></div>
 </div>
 
 <script type="text/javascript">
